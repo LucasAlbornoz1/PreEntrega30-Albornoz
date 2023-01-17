@@ -1,0 +1,56 @@
+body {
+
+    font-family: 'Philosopher', sans-serif;
+    overflow-x:  hidden;
+}
+
+#menu a {
+    font-size: 18px;
+    font-weight: bold;
+    color: darkgreen;
+}
+
+#menu button {
+    font-size: 18px;
+    font-weight: bold;
+}
+.carousel-inner {
+    max-height: 39rem;   
+}
+
+@media (max-width:768px) {
+    #intro, #equipo {
+    width: 90% !important; 
+ }
+     #equipo p{
+    display: none;
+ }
+}
+
+.servicio-fila {
+    width: 100% !important;
+    text-align: center;
+ }
+@media (max-width: 576px) {
+    .icono-wrap {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}
+footer {
+    min-height: 100px;
+}
+footer p {
+    color: aliceblue;
+    text-align: center;
+}
+#iconos i {
+    font-size:  26px;
+    padding: 0 8px;
+    color: aliceblue
+}
+#seccion-contacto {
+    background-color: burlywood;
+    min-height: 100px;
+    position: relative;
+}

@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cerveza Patagonia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Passion+One&family=Philosopher&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="container-fluid bg-success d-flex justify-content-center">
+        <p class="text-light mb-0 p-2 fs-6"> Reserva en nuestros locales 0381 - 4445588 </p>
+    </header>
+
+    <nav class="navbar navbar-expand-lg bg-success-subtle p-3" id="menu">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <span class="text-success fs-5 fw-bold"> Refugios Patagonia </span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/variedades.html">Nuestras Variedades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/sucursales.html">Sucursales</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/reservas.html">Reservas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="email" placeholder="Correo electronico" aria-label="email">
+                    <button class="btn btn-outline-success" type="button">Suscribirse</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img src="./imagen/bondiola.jpg" class="d-block w-100" alt="bondiola">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="./imagen/bife.jpg" class="d-block w-100" alt="bife">
+            </div>
+            <div class="carousel-item">
+                <img src="./imagen/picada.jpg" class="d-block w-100" alt="picada">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+        <section class="w-50 mx-auto text-center pt-5" id="intro">
+            <h1 class="p-3 fs-2 border-top border-3"> Tu mejor lugar para compartir
+            <span class="text-success">Cerveceria Patagonia</span>
+            </h1>
+            <p>Donde te brindaremos la mejor experencia y servicio</p>
+        </section>
+
+        <section class="container-fluid">
+            <div class="row w-75 mx-auto servicio-fila">
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
+                <img src="./imagen/cerveza1.png" alt="logo" width="180" height="160">
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1"> Nuestra Principal caracteristica </h3>
+                    <p class="px-4"> La mejor cerveza artesanal de todo el pais. Conoce todas nuestras variedades</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
+                <img src="./imagen/comida1.png" alt="logo" width="180" height="160">
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1"> Nuestros Platos </h3>
+                    <p class="px-4"> Variedad de opciones para todos los gustos, preparados por profesionales
+                        capacitados desde la patagonia </p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
+                <img src="./imagen/reserva.png" alt="logo" width="180" height="160">
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1"> Reservas </h3>
+                    <p class="px-4"> Asegura tu festejo, reservando con nosotros y accede a multiples beneficios</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
+                <img src="./imagen/eestacionamiento1.png" alt="logo" width="180" height="160">
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1"> Estacionamiento </h3>
+                    <p class="px-4"> Todas nuestras sucursales cuentan con estacionamiento propio </p>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section>
+            <div class="w-75 m-auto text-center" id="equipo">
+                <h1 class="mb-5 fs-2"> Somos una empresa en constante crecimiento <span class="text-success"> Trabaja con
+                    nosotros </span></h1>
+                <p class="fs-4"> Elige un trabajo que te guste y no tendrás que trabajar un día de tu vida </p>
+            </div>
+        <div class="mt-5 text-center">
+            <img class="img-fluid" src="./imagen/equipo2.jpg" alt="equipo">
+        </div>
+        </section>
+    </main>
+    <footer class="w-100 d-flex align-items-center justify-content-center flex-wrap bg-success">    
+        <p class="fs-5 px-2 pt-3"> Cerveza Patagonia &copy; Todos Los Derechos Reservados - Lucas Albornoz </p>
+        <div id="iconos">
+        <a href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.whatsapp.com/"><i class="bi bi-whatsapp"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
