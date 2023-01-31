@@ -1,70 +1,41 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+header {
+  background-color: #198754;
+  font-family: font-family "Squada One", cursive; }
 
 body {
-
-    font-family: 'Philosopher', sans-serif;
-    overflow-x:  hidden;
-}
-
-#menu a {
+  font-family: font-family "Squada One", cursive;
+  overflow-x: hidden; }
+  body #menu a,
+  body button {
     font-size: 18px;
     font-weight: bold;
-    color: darkgreen;
-}
-
-#menu button {
-    font-size: 18px;
-    font-weight: bold;
-}
-.carousel-inner {
-    max-height: 39rem;   
-}
-
-@media (max-width:768px) {
-    #intro, #equipo {
-    width: 90% !important; 
- }
-     #equipo p{
-    display: none;
- }
-}
-
-.servicio-fila {
-    width: 100% !important;
-    text-align: center;
- }
-@media (max-width: 576px) {
-    .icono-wrap {
-        flex-wrap: wrap;
-        justify-content: center !important;
-    }
-}
-footer {
-    min-height: 100px;
-}
-footer p {
-    color: aliceblue;
-    text-align: center;
-}
-#iconos i {
-    font-size:  26px;
+    color: darkgreen; }
+  body .carousel-inner {
+    max-height: 39rem; }
+  @media (max-width: 768px) {
+    body #intro,
+    body #equipo {
+      width: 90% !important; }
+    body #equipo p {
+      display: none; } }
+  @media (max-width: 576px) {
+    body .icono-wrap {
+      flex-wrap: wrap;
+      justify-content: center !important; } }
+  body footer {
+    min-height: 100px; }
+    body footer p {
+      color: aliceblue;
+      text-align: center; }
+  body #iconos i {
+    font-size: 26px;
     padding: 0 8px;
-    color: aliceblue
-}
-#seccion-contacto {
+    color: aliceblue; }
+  body #seccion-contacto {
     background-color: burlywood;
     min-height: 100px;
-    position: relative;
-}
-
-.animate__animated.animate__fadeInUp {
-    --animate-duration: 4s;
-  }
-
-.animate__animated.animate__rotateIn{
-    --animate-duration: 4s;
-}  
+    position: relative; }
+  body .animate__animated.animate__fadeInUp {
+    --animate-duration: 4s; }
+  body .animate__animated.animate__rotateIn {
+    --animate-duration: 4s; }

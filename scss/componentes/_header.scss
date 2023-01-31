@@ -1,0 +1,73 @@
+header {
+    background-color: $green;
+    font-family: $fuente;
+}
+
+body {
+    font-family: $fuente;
+    overflow-x: hidden;
+
+
+    #menu a,
+    button {
+        font-size: 18px;
+        font-weight: bold;
+        color: nth($colores, 5);
+
+
+    }
+
+    .carousel-inner {
+        max-height: 39rem;
+    }
+
+
+    @media (max-width:768px) {
+
+        #intro,
+        #equipo {
+            width: 90% !important;
+        }
+
+        #equipo p {
+            display: none;
+        }
+    }
+
+    @media (max-width: 576px) {
+        .icono-wrap {
+            flex-wrap: wrap;
+            justify-content: center !important;
+        }
+    }
+
+
+    footer {
+        min-height: 100px;
+
+        p {
+            color: nth($colores, 4);
+            text-align: center;
+        }
+    }
+
+    #iconos i {
+        font-size: 26px;
+        padding: 0 8px;
+        color: nth($colores, 4);
+    }
+
+    #seccion-contacto {
+        background-color: nth($colores, 3);
+        min-height: 100px;
+        position: relative;
+    }
+
+    .animate__animated.animate__fadeInUp {
+        --animate-duration: 4s;
+    }
+
+    .animate__animated.animate__rotateIn {
+        --animate-duration: 4s;
+    }
+}
